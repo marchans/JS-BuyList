@@ -2,7 +2,32 @@ h1 {
     color: red;
 }
 
-.text2018 {
-    color: #ff59c0;
-    font-size: 40px;
+.theme{
+    background: red;
+    width: 100%;
 }
+.center{
+    background: white;
+    width: 100%;
+    margin: auto;
+}
+.right{
+    width:	20%;
+    background-color:	white;
+    float:	right;
+    /*padding:	10px;*/
+    padding:	15px;
+    border:0.5px	solid	black;
+    /*margin: 5px;*/
+
+}
+.left{
+    width: 70%;
+    /*float:right;*/
+    background-color:	white;
+    padding:	15px;
+    border: 0.5px solid black;
+    /*margin: 5px;*/
+}
+
+
