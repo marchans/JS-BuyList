@@ -8,11 +8,47 @@
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
-<div class="theme">
+
     <div class="center">
-        <div class="right"> Right </div>
-        <div class="left"> Left </div>
+        <div class="right">
+            <p class = "line headRight "> Залишилося </p>
+            <div class="line whatToBuy">
+                <span class="item">
+                    <span class="itemList">
+                        <span class="name"> М'ясо</span>
+                        <span class="amount"> 10 </span>
+                    </span>
+                </span>
+            </div>
+            <p class="line headRight"> Куплено </p>
+            <div class="line whatIBought"></div>
+        </div>
+        <div class="left list">
+            <div class="line">
+             <input type="text" class="addProduct" placeholder="Назва товару...">
+                <button id="add">Додати</button>
+            </div>
+            <div class="itemOne">
+                <div class="line">
+                    <span class="naming">
+                        <p class="product title">М'ясо</p>
+                        <input type="text" class="nameText">
+                    </span>
+                    <div class="count">
+                        <p class="product am">1</p>
+                        <button class="minus product">-</button>
+                        <button class="plus product">+</button>
+                    </div>
+                    <span class="rowRight">
+                        <button class="buy">Куплено</button>
+                        <button class="notBought">Не куплено</button>
+                        <button class="cancel">Х</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+
     </div>
-</div>
+
 </body>
 </html>

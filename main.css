@@ -2,32 +2,172 @@ h1 {
     color: red;
 }
 
-.theme{
-    background: red;
-    width: 100%;
+body{
+    background-color: lightgrey;
 }
-.center{
-    background: white;
-    width: 100%;
-    margin: auto;
-}
-.right{
-    width:	20%;
-    background-color:	white;
-    float:	right;
-    /*padding:	10px;*/
-    padding:	15px;
-    border:0.5px	solid	black;
-    /*margin: 5px;*/
 
+
+.center{
+    width: 100%;
+    padding-top: 5%;
+    margin: auto;
+    max-width: 800px;
+    min-width: 450px;
+}
+
+.right{
+    width:	35%;
+    background-color:	white;
+    /*float:	right;*/
+    /*padding:	10px;*/
+    /*padding:	15px;*/
+    border-radius: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    /*margin: 20px;*/
 }
 .left{
-    width: 70%;
-    /*float:right;*/
+    width: 60%;
+    margin-right:2%;
+    float:left;
     background-color:	white;
-    padding:	15px;
-    border: 0.5px solid black;
-    /*margin: 5px;*/
+    /*padding:	15px;*/
+    border-radius: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    /*margin: 20px;*/
 }
+.line {
+    font-size: 110%;
+    border-bottom: 1px solid lightgrey;
+    padding:5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.headRight{
+    font-weight: bold;
+}
+
+.whatToBuy{
+
+}
+.item{
+    display: none;
+}
+.whatIBought{
+
+}
+
+
+.itemList{
+border-radius: 3px;
+    background-color: lightgrey;
+    display:inline-table;
+    padding:3%;
+    font-size:9px;
+    margin:1%;
+    vertical-align: 80%;
+    line-height: 200%;
+    width: fit-content;
+
+}
+.name{
+
+}
+
+.naming{
+    float:left ;
+    width:35%;
+    font-size: 18px;
+}
+
+.amount{
+    border-radius: 50%;
+    background-color: darkorange;
+    color:white;
+    display:inline;
+    text-align: center;
+    padding: 7%;
+    padding-top: 4%;
+    padding-bottom:4%;
+    margin-left: 2%;
+    /*margin:auto;*/
+    /*width:25%;*/
+}
+.list{
+
+}
+
+#add {
+    float: right;
+    background-color: blue;
+    color: white;
+    width:17%;
+    height: 30px;
+    vertical-align: top;
+    margin-left: 0;
+    font-weight: bold;
+
+}
+.itemOne{
+    display: none;
+    border-bottom: 1px solid lightgrey;
+    padding: 5%;
+}
+
+.product{
+    font-size: smaller;
+    display: inline;
+}
+.title{
+
+}
+input.nameText{
+    display: none;
+
+}
+
+.count {
+    display: inline;
+    margin:auto;
+    width:25%;
+}
+
+.plus{
+    border-radius: 90px;
+    background-color: green;
+    color: white;
+    display: inline;
+    font-weight: bold;
+}
+.minus{
+    border-radius: 90px;
+    background-color: red;
+    color: white;
+    padding-bottom: 1%;
+    padding-top: 0.5%;
+    font-weight: bold;
+}
+.rowRight {
+    width: 25%;
+    margin-left: 15%;
+}
+.buy, .notBought{
+    display:inline;
+    font-size: 11px;
+    padding:2%;
+}
+.notBought{
+    display: none;
+}
+.am {
+    background-color: lightgrey;
+    border-radius: 3px;
+    padding: 2.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
 
 
