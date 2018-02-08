@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head lang="uk">
     <meta charset="UTF-8">
     <title>My Page</title>
@@ -9,46 +9,94 @@
 </head>
 <body>
 
-    <div class="center">
-        <div class="right">
-            <p class = "line headRight "> Залишилося </p>
-            <div class="line whatToBuy">
-                <span class="item">
-                    <span class="itemList">
-                        <span class="name"> М'ясо</span>
-                        <span class="amount"> 10 </span>
-                    </span>
-                </span>
-            </div>
-            <p class="line headRight"> Куплено </p>
-            <div class="line whatIBought"></div>
+<div class="center">
+<div class="column right">
+      <div class="line">
+    <h3> Залишилося </h3>
+</div>
+    <div class="lineProduct">
+        <div class="nobought">
+            <span class="item">
+                <span class="name">Помідори</span>
+                <span class=" amount">1</span>
+            </span>
+            <span class="item">
+                <span class="name">Печиво</span>
+                <span class=" amount">1</span>
+            </span>
+            <span class="item">
+                <span class="name">Сир</span>
+                <span class=" amount">1</span>
+            </span>
         </div>
-        <div class="left list">
-            <div class="line">
-             <input type="text" class="addProduct" placeholder="Назва товару...">
-                <button id="add">Додати</button>
+    </div>
+    <div class="lineProduct">
+        <h3 class="pad"> Куплено </h3>
+    </div>
+    <div class="lineProduct">
+        <div class = "bought"></div>
+    </div>
+
+
+</div>
+    <div class="column left">
+        <div class="line">
+            <div class="inputLine">
+                <input type="text" placeholder="Назва товару">
+                <button class = "naming">Додати</button>
             </div>
-            <div class="itemOne">
-                <div class="line">
-                    <span class="naming">
-                        <p class="product title">М'ясо</p>
-                        <input type="text" class="nameText">
-                    </span>
-                    <div class="count">
-                        <p class="product am">1</p>
-                        <button class="minus product">-</button>
-                        <button class="plus product">+</button>
-                    </div>
-                    <span class="rowRight">
-                        <button class="buy">Куплено</button>
-                        <button class="notBought">Не куплено</button>
-                        <button class="cancel">Х</button>
-                    </span>
+        </div>
+        <div class="lineProduct">
+            <div class="line itemLine">
+                <div class="title">
+                    <span class="notbought">Помідори</span>
+                </div>
+                <div class="buttons">
+                    <button class="minus textStyle">-</button>
+                    <span class="label">1</span>
+                    <button class="plus textStyle">+</button>
+                </div>
+                <div class="tobuy">
+                    <button class="buy">Куплено</button>
+                    <button class="remove textStyle">x</button>
+                </div>
+            </div>
+            </div>
+        <div class="lineProduct">
+            <div class="line itemLine">
+                <div class="title">
+                    <span class="notbought">Печиво</span>
+                </div>
+                <div class="buttons">
+                    <button class="minus textStyle">-</button>
+                    <span class="label">1</span>
+                    <button class="plus textStyle">+</button>
+                </div>
+                <div class="tobuy">
+                    <button class="buy">Куплено</button>
+                    <button class="remove textStyle">x</button>
                 </div>
             </div>
         </div>
-
+        <div class="lineProduct">
+            <div class="line itemLine">
+                <div class="title">
+                    <span class="notbought">Сир</span>
+                </div>
+                <div class="buttons">
+                    <button class="minus textStyle">-</button>
+                    <span class="label">1</span>
+                    <button class="plus textStyle">+</button>
+                </div>
+                <div class="tobuy">
+                    <button class="buy">Куплено</button>
+                    <button class="remove textStyle">x</button>
+                </div>
+            </div>
+        </div>
     </div>
+    </div>
+
 
 </body>
 </html>
