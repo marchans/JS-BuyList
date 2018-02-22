@@ -9,7 +9,7 @@
     <title>My Page</title>
 
     <link rel="stylesheet" type="text/css" href="main.css"/>
-    <script src="script.js"></script>
+
 
 </head>
 <body>
@@ -17,18 +17,19 @@
 
 <div class="center">
 
-    <div class="column left">
+    <div class="column left list">
         <div class="line">
             <div class="inputLine">
                 <input type="text" placeholder="Назва товару">
-                <button class="naming"  data-tooltip="Tooltip text" >Додати
+                <button id="naming"  data-tooltip="Tooltip text" >Додати
                 </button>
             </div>
         </div>
+        <div class="listU">
         <div class="lineProduct">
             <div class="line itemLine">
                 <div class="title">
-                    <span class="notbought">Помідори</span>
+                    <span class="nameT">Помідори</span>
                 </div>
                 <div class="buttons">
                     <button class="minus textStyle"  data-tooltip="Tooltip text" >-
@@ -86,19 +87,20 @@
                 </div>
             </div>
         </div>
+        </div>
     </div>
     <div class="column right">
         <div class="line">
             <h3> Залишилося </h3>
         </div>
-        <div class="lineProduct">
-            <div class="nobought">
+        <div class="rightProduct">
+            <div class="leftItem">
             <span class="item">
                 <span class="name">Помідори</span>
-                <span class=" amount">1</span>
+                <span class="amount">1</span>
             </span>
                 <span class="item">
-                <span class="name">Печиво</span>
+                    <span class="name">Печиво</span>
                 <span class=" amount">1</span>
             </span>
                 </span>
@@ -121,6 +123,10 @@
     <p class="text1">Buy List</p>
     <p class="text2">Created by: Anastasiia</p>
 </div>
+<script	type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js">	</script>
+<script	type="text/javascript" src="script.js"></script>
+
+
 </body>
 
 </html>
